@@ -1,10 +1,8 @@
-package com.phastmoney.optima.repo;
+package com.pario.outbox.repo;
 
-import com.phastmoney.optima.model.OutboxEvent;
+import com.pario.outbox.model.OutboxEvent;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-
-import java.util.UUID;
 
 /**
  * Created by Adesegun.Adeyemo on 14/11/2022

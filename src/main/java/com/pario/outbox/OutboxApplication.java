@@ -1,4 +1,4 @@
-package com.phastmoney.optima;
+package com.pario.outbox;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

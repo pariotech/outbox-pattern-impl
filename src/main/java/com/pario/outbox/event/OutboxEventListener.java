@@ -1,7 +1,7 @@
-package com.phastmoney.optima.event;
+package com.pario.outbox.event;
 
-import com.phastmoney.optima.model.OutboxEvent;
-import com.phastmoney.optima.repo.OutboxEvents;
+import com.pario.outbox.model.OutboxEvent;
+import com.pario.outbox.repo.OutboxEvents;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.event.EventListener;
 

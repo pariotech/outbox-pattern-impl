@@ -1,9 +1,9 @@
-package com.phastmoney.optima.repo.converter;
+package com.pario.outbox.repo.converter;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.phastmoney.optima.exception.JDBCConverterException;
+import com.pario.outbox.exception.JDBCConverterException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.data.convert.ReadingConverter;

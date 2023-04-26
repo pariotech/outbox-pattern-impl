@@ -1,9 +1,7 @@
-package com.phastmoney.optima.repo;
+package com.pario.outbox.repo;
 
-import com.phastmoney.optima.model.ConsumedMessage;
+import com.pario.outbox.model.ConsumedMessage;
 import org.springframework.data.repository.CrudRepository;
-
-import java.util.UUID;
 
 /**
  * Created by Adesegun.Adeyemo on 26/01/2023

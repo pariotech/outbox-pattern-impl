@@ -1,4 +1,4 @@
-package com.phastmoney.optima.event;
+package com.pario.outbox.event;
 
 import com.fasterxml.jackson.databind.JsonNode;
 

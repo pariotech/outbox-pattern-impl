@@ -1,4 +1,4 @@
-package com.phastmoney.optima.repo;
+package com.pario.outbox.repo;
 
 import org.springframework.boot.test.autoconfigure.data.jdbc.DataJdbcTest;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

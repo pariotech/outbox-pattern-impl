@@ -1,4 +1,4 @@
-package com.phastmoney.optima.model;
+package com.pario.outbox.model;
 
 import lombok.Builder;
 import lombok.Value;

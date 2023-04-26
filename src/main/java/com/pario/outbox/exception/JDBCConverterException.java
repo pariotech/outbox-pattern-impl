@@ -1,4 +1,4 @@
-package com.phastmoney.optima.exception;
+package com.pario.outbox.exception;
 
 /**
  * Created by Adesegun.Adeyemo on 30/01/2023

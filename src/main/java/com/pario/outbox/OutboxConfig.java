@@ -1,9 +1,9 @@
-package com.phastmoney.optima;
+package com.pario.outbox;
 
-import com.phastmoney.optima.event.OutboxEventListener;
-import com.phastmoney.optima.repo.MessageLogs;
-import com.phastmoney.optima.repo.OutboxEvents;
-import com.phastmoney.optima.service.MessageLog;
+import com.pario.outbox.event.OutboxEventListener;
+import com.pario.outbox.repo.MessageLogs;
+import com.pario.outbox.repo.OutboxEvents;
+import com.pario.outbox.service.MessageLog;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

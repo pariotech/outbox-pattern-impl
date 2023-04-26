@@ -1,13 +1,12 @@
-package com.phastmoney.optima.service;
+package com.pario.outbox.service;
 
-import com.phastmoney.optima.model.ConsumedMessage;
-import com.phastmoney.optima.repo.MessageLogs;
+import com.pario.outbox.model.ConsumedMessage;
+import com.pario.outbox.repo.MessageLogs;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.Instant;
-import java.util.UUID;
 
 /**
  * Created by Adesegun.Adeyemo on 26/01/2023

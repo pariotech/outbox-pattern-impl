@@ -1,8 +1,8 @@
-package com.phastmoney.optima.repo;
+package com.pario.outbox.repo;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.phastmoney.optima.model.OutboxEvent;
+import com.pario.outbox.model.OutboxEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

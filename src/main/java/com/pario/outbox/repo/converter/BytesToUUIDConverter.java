@@ -1,4 +1,4 @@
-package com.phastmoney.optima.repo.converter;
+package com.pario.outbox.repo.converter;
 
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.data.convert.ReadingConverter;
