@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import java.time.Instant;
 
 /**
- * Created by Adesegun.Adeyemo on 14/11/2022
+ * Created by Temire.Emmanuel on 14/11/2022
  * <p>
  * Describes an event that should be exported via the "outbox_events" table.
  */

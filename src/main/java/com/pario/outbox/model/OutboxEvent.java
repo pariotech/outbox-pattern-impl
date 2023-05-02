@@ -3,6 +3,7 @@ package com.pario.outbox.model;
 import com.fasterxml.jackson.databind.JsonNode;
 import lombok.Builder;
 import lombok.Value;
+import org.json.JSONObject;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Version;
 import org.springframework.data.relational.core.mapping.Table;
@@ -11,7 +12,7 @@ import java.time.Instant;
 import java.util.UUID;
 
 /**
- * Created by Adesegun.Adeyemo on 14/11/2022
+ * Created by Temire.Emmanuel on 14/11/2022
  */
 @Table("outbox_events")
 @Value
@@ -24,7 +25,7 @@ public class OutboxEvent { // Configure and ensure binlog retention is not too s
      * Generated when creating a new event.
      */
     @Id
-    String id;
+    Long id;
     String aggregateType;
     Long aggregateId;
     String type;

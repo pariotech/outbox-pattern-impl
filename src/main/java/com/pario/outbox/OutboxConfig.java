@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Created by Adesegun.Adeyemo on 02/02/2023
+ * Created by Temire.Emmanuel on 02/02/2023
  */
 @Configuration
 public class OutboxConfig {

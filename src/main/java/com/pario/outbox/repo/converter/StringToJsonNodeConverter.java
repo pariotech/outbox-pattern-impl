@@ -9,7 +9,7 @@ import org.springframework.core.convert.converter.Converter;
 import org.springframework.data.convert.ReadingConverter;
 
 /**
- * Created by Adesegun.Adeyemo on 16/01/2023
+ * Created by Temire.Emmanuel on 16/01/2023
  */
 @ReadingConverter
 @RequiredArgsConstructor

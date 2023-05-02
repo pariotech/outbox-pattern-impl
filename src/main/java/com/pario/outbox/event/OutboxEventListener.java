@@ -8,7 +8,7 @@ import org.springframework.context.event.EventListener;
 import java.util.UUID;
 
 /**
- * Created by Adesegun.Adeyemo on 21/01/2023
+ * Created by Temire.Emmanuel on 21/01/2023
  */
 
 @RequiredArgsConstructor
@@ -25,7 +25,6 @@ public class OutboxEventListener {
 
     private static OutboxEvent of(ExportedEvent exportedEvent) {
         return OutboxEvent.builder()
-                .id(UUID.randomUUID().toString())
                 .aggregateId(exportedEvent.getAggregateId())
                 .aggregateType(exportedEvent.getAggregateType())
                 .type(exportedEvent.getType())

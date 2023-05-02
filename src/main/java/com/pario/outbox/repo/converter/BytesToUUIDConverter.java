@@ -7,7 +7,7 @@ import java.nio.ByteBuffer;
 import java.util.UUID;
 
 /**
- * Created by Adesegun.Adeyemo on 11/01/2023
+ * Created by Temire.Emmanuel on 11/01/2023
  */
 @ReadingConverter
 public class BytesToUUIDConverter implements Converter<byte[], UUID> {

@@ -14,7 +14,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 /**
- * Created by Adesegun.Adeyemo on 16/01/2023
+ * Created by Temire.Emmanuel on 16/01/2023
  */
 @Slf4j
 @ImportAutoConfiguration(JacksonAutoConfiguration.class)
@@ -33,13 +33,15 @@ public class OutboxEventsTest extends AbstractDatabaseTest {
                 .put("amount", String.valueOf(100000))
                 .put("currency", "NGN")
                 .put("transactionRef", UUID.randomUUID().toString());
+        log.info("PAYLOAD: {}",asJson);
         OutboxEvent event = OutboxEvent.builder()
-                .id(UUID.randomUUID().toString())
-                .aggregateType("Transaction")
                 .aggregateId(1L)
+                .aggregateType("Transaction")
                 .timestamp(Instant.now())
                 .type("TransactionSubmitted")
-                .payload(asJson.toPrettyString()).build();
+                .payload(asJson.toPrettyString())
+                .build();
+        log.info("OutboxEvent before save: {}", event);
         OutboxEvent saved = events.save(event);
         log.info("Saved - " + saved);
         Optional<OutboxEvent> found = events.findById(saved.getId());
