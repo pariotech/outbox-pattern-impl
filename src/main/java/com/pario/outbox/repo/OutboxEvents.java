@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 /**
  * Created by Temire.Emmanuel on 14/11/2022
  */
-/*@Repository*/
+@Repository
 public interface OutboxEvents extends CrudRepository<OutboxEvent, Long> {
 }
